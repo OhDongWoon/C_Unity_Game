@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     private PlayerStats stats;
 
     // 플레이어 이동 속도
-    public float moveSpeed = 5f;
+    private float moveSpeed = 5f;
 
     void Start()
     {
